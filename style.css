@@ -21,3 +21,8 @@
   font-weight: normal;
   src: url('fonts/Proxima\ Nova\ Extrabold.otf');
 }
+
+.main-card{
+  width: 1000px;
+  
+}
