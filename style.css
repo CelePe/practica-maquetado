@@ -22,7 +22,89 @@
   src: url('fonts/Proxima\ Nova\ Extrabold.otf');
 }
 
-.main-card{
-  width: 1000px;
+body{
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  background: linear-gradient(0.25turn, #e66465, #9198e5);
   
+}
+
+
+.main-card{
+  background-color: cornsilk;
+  width: 1000px;
+  border-radius: 20px;
+  
+}
+nav{
+
+}
+
+ul{
+  list-style: none;
+  font-family: 'Proxima Nova';
+  font-weight: lighter;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  
+}
+
+li{
+  padding: 20px;
+}
+
+.card-container{
+  width: 500px;
+  length: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+
+}
+
+.card {
+width: 25%;
+border-radius: 10px;
+background-color: whitesmoke;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.title-food{
+  font-family: 'Proxima Nova';
+  font-weight: bold;
+color: black;
+
+}
+
+.description-food{
+  font-family: 'Proxima Nova';
+  font-weight: lighter;
+  backgound-color: #ffffff;
+
+}
+
+.pricetag{
+  height: 20px;
+  width: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 8000px;
+  border-bottom-right-radius: 8000px;
+  background-color: #fefefe;
+  font-family: 'Proxima Nova';
+  font-weight: lighter;
+  text-align: center;
+}
+
+.addbutton{
+
+}
+
+img{
+  width: 100px;
 }
