@@ -64,8 +64,8 @@ li{
 
 .card {
 margin: 15px;
-width: 180px;
-height: 300px;
+width: 210px;
+height: 250px;
 border-radius: 10px;
 background-color: whitesmoke;
 display: flex;
@@ -85,7 +85,7 @@ color: black;
 .description-food{
   font-family: 'Proxima Nova';
   font-weight: lighter;
-  backgound-color: #ffffff;
+  color: #f8f8fa;
 
 }
 
@@ -106,12 +106,12 @@ color: black;
 width: 40px;
 height: 40px;
 font-family: 'Proxima Nova';
-font-size: 30px;
+font-size: 27px;
+font-weight: lighter;
 border-radius: 50%;
 color: white;
 background-color: #ed4877;
-display:inline-block;
-}
+text-align: center;}
 
 img{
   width: 100px;
