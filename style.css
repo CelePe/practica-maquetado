@@ -23,22 +23,19 @@
 }
 
 body{
-  display: flex;
-  justify-content: row;
-  align-items: center;
-  background: linear-gradient(0.25turn, #e66465, #9198e5);
-  
+    background: linear-gradient(0.25turn, #e66465, #9198e5); 
 }
 
 
 .main-card{
-  background-color: cornsilk;
-  width: 1000px;
+  background-color: #ffffff;
+  margin: auto;
   border-radius: 20px;
-  
+  width: 80%;
+  height: 90%;
 }
 nav{
-
+  border-bottom-color: #f2f3f5;
 }
 
 ul{
@@ -56,22 +53,26 @@ li{
 }
 
 .card-container{
-  width: 500px;
-  length: 200px;
+  width: 1300px;
+  height: 400px;
+  padding: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 20px;
-
+  justify-content: center;
+  display: inline-block;
 }
 
 .card {
-width: 25%;
+margin: 15px;
+width: 180px;
+height: 300px;
 border-radius: 10px;
 background-color: whitesmoke;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+display: inline-block;
+text-align: center;
 }
 
 .title-food{
@@ -98,13 +99,26 @@ color: black;
   background-color: #fefefe;
   font-family: 'Proxima Nova';
   font-weight: lighter;
-  text-align: center;
+
 }
 
 .addbutton{
-
+width: 40px;
+height: 40px;
+font-family: 'Proxima Nova';
+font-size: 30px;
+border-radius: 50%;
+color: white;
+background-color: #ed4877;
+display:inline-block;
 }
 
 img{
   width: 100px;
+  
+}
+.gray-line{
+  margin: 0;
+  width: 0;
+  height: 0;
 }
