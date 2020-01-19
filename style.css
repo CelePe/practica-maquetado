@@ -38,6 +38,7 @@ body {
   height: 1000px;
   display: flex;
   justify-content: column;
+  align-items: flex-end;
 }
 .bottom-part{
   display: flex;
@@ -47,24 +48,35 @@ body {
   height: 500px;
 }
 
-.options-container nav {
-  border-bottom-color: #f2f3f5;
+.options-container nav{
   width:1100px;
-  height: 500px;
+  height: 40px;
   margin: 0;
-}
+  border-bottom: 3px solid #f2f3f5;
+  margin-bottom: 50px;
+  }
 
 ul {
   list-style: none;
   font-family: 'Proxima Nova';
   font-weight: lighter;
+  font-size: 18px;
   display: flex;
   flex-direction: row;
   justify-content: left;
-}
+  }
 
 li {
   padding: 20px;
+  
+}
+.border-bottom-list{
+  border-bottom: 5px solid #b6bae5;
+  margin: 0;
+}
+
+.number10 {
+  color: #c1c1ca;
 }
 
 .card-container {
