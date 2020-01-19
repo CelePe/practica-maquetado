@@ -22,7 +22,274 @@
   src: url('fonts/Proxima\ Nova\ Extrabold.otf');
 }
 
+body{
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+}
+
 .main-card{
-  width: 1000px;
-  
+  width: 1000px;  
+  background-color: white;
+  height: 1000px;
+  border-radius: 35px;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.nav-box {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 0px;
+}
+
+.logo-food {
+  font-family: 'Proxima Nova';
+  font-weight: normal;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.food-letter {
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.delivery-letter {
+  margin: 0px;
+  letter-spacing: 3px;
+}
+
+.cont-container-header {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+
+.container-input-lupa {
+  position: relative;
+  color: gray;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.location-text { 
+  font-size: 12px;
+}
+
+#adreess {
+  font-weight: bold;
+  color: black;
+}
+
+.input-search {
+  border-radius: 15px;
+  border: 1px solid whitesmoke;
+  height: 30px; 
+  width: 95%;
+  position: relative;
+  padding: 5px ;
+  margin-top: 20px;
+}
+
+.fa-search {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  z-index: 1;
+}
+
+.img-box-nav {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  width: 10%;  
+  position: relative;  
+}
+
+.img-small-nav {
+  position: absolute;
+  width: 80%;
+  box-shadow: 0px 0px 56px -26px rgba(0,0,0,0.75);
+  border-radius: 50%;
+  background-color: white;
+
+}
+
+#img-1 {
+  top: 20px;
+  z-index: 2;
+}
+
+#img-2 {
+ top: 0px;
+ z-index: 1;
+}
+
+#img-3 {
+  top: 35px;
+  z-index: 3;
+}
+
+.pedido-box-button {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  position: relative;
+  box-shadow: 0px 19px 88px -26px rgba(0,0,0,0.75);
+  border-bottom-left-radius: 20px; 
+  border-bottom-right-radius: 20px;
+}
+
+.pedido-box-detalles {
+  background-color: gray;
+  font-family:Arial, Helvetica, sans-serif;  
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  font-weight: 5px;
+  font-size: 15px;
+  height: 35px;
+  margin-top: 0px;
+}
+
+.box-pedido-dishes{
+  border-bottom: dashed 1px white;
+  padding: 2px;
+  margin: 0px 20px;
+  font-size: 10px;  
+  position: absolute;
+  left: 10px;
+}
+
+.box-pedido-price{
+  font-size: 20px;
+  padding: 10px;
+  position: absolute;
+  left: 100px;
+}
+
+.fa-shopping-cart {
+  position: absolute;
+  top: 10px;
+  left: 220px;
+  } 
+
+.order-button {
+  border-radius: 15px;
+  margin: 10px 0px;
+  width: 80%;
+  height: 30px;
+  background: linear-gradient(0.25turn, #e66465, #9198e5);
+  color: white;
+  border-style: none;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+}
+
+/* Final de header - descripción producto */
+
+.card-description-food {
+  height: 350px;  
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.cont-img-pizza-backtomenubtn {
+  width: 50%;
+  position: relative;
+}
+
+.back-to-menu-button {
+  font-family: Arial, Helvetica, sans-serif-;
+  font-size: 10px;
+  color: white;
+  padding: 15px 30px  15px 60px;
+  background-color: rgb(53, 42, 42);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius:10px ;
+  position: relative;
+  z-index: 1;
+  top: 30px;  
+}
+
+.img-pizza-pomodoro {
+  width: 70%;  
+  padding:40px;
+  box-shadow: 0px 0px 56px -26px rgba(0,0,0,0.75);
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+
+
+/* Información de precio cantidad ingredientes */
+
+.cont-info-pizza {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.tomato-tittle { 
+  font-family: 'Proxima Nova';
+  font-size: 40px;  
+  margin: 30px 40px 5px;  
+}
+
+
+.info-ingredientes-pizza {
+  width: 50%;
+  position: absolute;
+  left: 50px;
+  top: 150px;
+  border: solid 1px black ; 
+}
+
+
+.fa-pepper-hot {
+  font-size: 10px;
+  color: linear-gradient(0.25turn, #e66465, #9198e5);
+  position: absolute;
+  left: -30px;
+  top: 7.5px;
+  transform:rotate(-45deg);
+
+}
+
+.buttons-order {
+  width: 100%;
+  position: relative;
+}
+
+.btn-add-to-cart-big {
+  border-radius: 5px;
+  margin: 10px 0px;
+  width:40%;
+  height: 50px;
+  background: linear-gradient(0.25turn, #e66465, #9198e5);
+  color: white;
+  border-style: none;
+  position: absolute;
+  top: 40px;
+  right: 30px;
 }
