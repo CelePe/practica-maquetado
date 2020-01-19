@@ -24,6 +24,9 @@
 
 body {
   background: linear-gradient(0.25turn, #e66465, #9198e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -31,8 +34,11 @@ body {
   background-color: #ffffff;
   margin: auto;
   border-radius: 20px;
-  width: 80%;
-  height: 90%;
+  width: 1000px;
+  height: 1000px;
+  display: flex;
+  justify-content: column;
+  align-items: flex-end;
 }
 
 .options-container nav {
@@ -58,9 +64,8 @@ li {
   padding: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  
-}
+  align-items: flex-start;
+  }
 
 .card {
   margin: 15px;
