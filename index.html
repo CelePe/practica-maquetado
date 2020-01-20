@@ -10,75 +10,158 @@
 </head>
 
 <body>
+
     
   <div class="main-card">
-    <header>
-      <nav class="nav-box">
-        <div class="logo-food">
-          <h1 class="food-letter">FOOD</h1> 
-          <h4 class="delivery-letter">DELIVERY</h4>
-        </div>
+      <header>
+        <nav class="nav-box">
+              <div class="logo-food">
+                  <h1 class="food-letter">FOOD</h1> 
+                  <h4 class="delivery-letter">DELIVERY</h4>
+              </div>
 
-      <div class="cont-container-header"> 
-      <!-- contenedor ubicacion y busqueda -->
-        <div class="container-input-lupa">
-            <label class="location-text" for="text">
-                <i class="fas fa-map-marker-alt"></i>
-                My location: <span id="adreess"> Downtown Broklyn, str 29, box 14</span>
-                 <i class="fas fa-pencil-alt"></i>
-            </label>
-            <input class="input-search" type="text" name="input-search" placeholder="  What food you want? ">
-            <i class="fas fa-search"></i>         
-        </div>
+    <!-- contenedor ubicacion y busqueda -->
+          <div class="cont-container-header"> 
+              <div class="container-input-lupa">
+                  <label class="location-text" for="text">
+                    <i class="fas fa-map-marker-alt"></i>
+                    My location: <span id="adreess"> Downtown Broklyn, str 29, box 14</span>
+                    <i class="fas fa-pencil-alt"></i>
+                  </label>
+                <input class="input-search" type="text" name="input-search" placeholder="  What food you want? ">
+                  <i class="fas fa-search"></i>         
+              </div>
                 
-        <div class="img-box-nav">
-          <img id="img-1" class="img-small-nav" src="pasta-piada-italian-street-food-home-page-38.png" alt="pasta" > 
-          <img id="img-2" class="img-small-nav" src="Smothered_Pork_Chops_with_Home_Fries_and_Green_Beans_-_Week_33.png" alt="pizza">
-          <img id="img-3" class="img-small-nav" src="Moroccan_Chicken_Plate_1024x1024.png" alt="chicken">
-        </div>
+              <div class="img-box-nav">
+                  <img id="img-1" class="img-small-nav" src="pasta-piada-italian-street-food-home-page-38.png" alt="pasta" > 
+                  <img id="img-2" class="img-small-nav" src="Smothered_Pork_Chops_with_Home_Fries_and_Green_Beans_-_Week_33.png" alt="pizza">
+                  <img id="img-3" class="img-small-nav" src="Moroccan_Chicken_Plate_1024x1024.png" alt="chicken">
+              </div>
   
-        <div class="pedido-box-button">
-          <div class="pedido-box-detalles">
-            <span class="box-pedido-dishes">3 dishes</span>
-            <span class="box-pedido-price">$ 56</span>
-            <i class="fas fa-shopping-cart"></i>
+              <div class="pedido-box-button">
+                  <div class="pedido-box-detalles">
+                      <span class="box-pedido-dishes">3 dishes</span>
+                      <span class="box-pedido-price">$ 56</span>
+                      <i class="fas fa-shopping-cart"></i>
+                  </div>
+                       <button class="order-button">order</button>
+              </div>
           </div>
-          <button class="order-button">order</button>
-        </div>
-      </div>
-    </nav>  
-  </header>
+        </nav>  
+      </header>
 
-  <section class="card-description-food">    
-    <!--Imagen pizza y boton de retorno de menu-->
-    <div class="cont-img-pizza-backtomenubtn">      
-        <span class="back-to-menu-button"> < Back to menu</span>      
-        <img class="img-pizza-pomodoro" src="pizza-png-1096x1111_06ce1bde.png" alt="pizza pomodoro" >
-    </div>
-    <!--contenedor informacion pizza y pedido-->
-    <div class="cont-info-pizza">
-      <h2 class="tomato-tittle">Tomato Pomadoro</h2>
-      <!-- ingredientes e iconos -->
-        <div class="info-ingredientes-pizza">
-            <i class="fas fa-pepper-hot"></i>
-            <i class="fas fa-pepper-hot"></i>
-            <i class="fas fa-pepper-hot"></i>
-            <i class="fas fa-pepper-hot"></i>
-            <i  id="grey-pepper" class="fas fa-pepper-hot"></i>
-          <span> Hot as hell!</span>  
-          <p>The amazing sauce accentuates the crust, cheese and other toppings as it bakes in whith the entire pizza...</p>
+      <section class="card-description-food">    
+            <!--Imagen pizza y boton de retorno de menu-->
+            <div class="cont-img-pizza-backtomenubtn">      
+                <span class="back-to-menu-button"> < Back to menu</span>      
+                <img class="img-pizza-pomodoro" src="pizza-png-1096x1111_06ce1bde.png" alt="pizza pomodoro" >
+            </div>
+
+            <!--contenedor informacion pizza y pedido-->
+          <div class="cont-info-pizza">
+                  <h2 class="tomato-tittle">Tomato Pomadoro</h2>
+      
+            <!-- ingredientes e iconos -->
+          <div class="info-ingredientes-pizza">
+                  <i class="fas fa-pepper-hot"></i>
+                  <i class="fas fa-pepper-hot"></i>
+                  <i class="fas fa-pepper-hot"></i>
+                  <i class="fas fa-pepper-hot"></i>
+                  <i  id="grey-pepper" class="fas fa-pepper-hot"></i>
+          
+                  <span id="hotashell"> Hot as hell!</span>  
+                  <p class="description-text">The amazing sauce accentuates the crust, cheese and other toppings as it bakes in whith the entire pizza...</p>
           <!--botones-->
-          <section class="buttons-order">
-            <button class="btn-cantidad"></button>
-            <button class="btn-price">Price <span>$14<span></button>
-            <button class="btn-add-to-cart-big">Add to cart</button>
-          </section>
-        </div>
-    </div>    
+                  <section class="buttons-order">
+                        <div class="btn-agregarproducto">
+                          <span class="btn-fake">+</span>
+                          <span id="btn-1" class="btn-fake">1</span>
+                          <span class="btn-fake">-</span>
+                        </div>
+                        <button class="btn-price">Price <span id="btn-price-color">$14<span></button>
+                        <button class="btn-add-to-cart-big">Add to cart</button>
+                  </section>
+            </div>
+
+        <!-- caja de iconos para ingredientes --> 
+        
+      </div>    
+      
+    </section>
     
-    </div>
+    <div class="container-cards-iconos-ingredientes">
+               <!-- un icono por caja -->     
+
+        <div class="iconos-cardx3">          
+            <div id="i-mozzarella" class="icono-ingrediente-card">
+                <div Class="icono-position-box">
+                  <i class="fas fa-cheese"></i>
+                </div>
+                <div class="text-icono">
+                  <span>60g</span>
+                  <span><b>Mozzarella</b></span>
+                </div>
+              </div>
+
+            <div id="i-bacon" class="icono-ingrediente-card">
+                <div Class="icono-position-box">
+                  <i id="i-bacon-1" class="fas fa-bacon"></i>
+                  <i id="i-bacon-2" class="fas fa-bacon"></i>
+                </div>
+                <div id="text-icono-bacon-position"class="text-icono">
+                  <span>120g</span>
+                  <span><b>Bacon</b></span>
+                </div>
+             </div>
+
+            <div id="i-ham"  class="icono-ingrediente-card">
+              <div Class="icono-position-box">
+                <i class="fas fa-hamburger"></i>
+              </div>
+              <div class="text-icono">
+                  <span>200g</span>
+                  <span><b>Ham</b></span>
+                </div>  
+            </div>
+      </div>
+
+      <div class="iconos-cardx3">
+            <div id="i-sausages" class="icono-ingrediente-card">
+              <div Class="icono-position-box">
+                <i class="fas fa-bacon"></i>
+              </div>
+              <div class="text-icono">
+                  <span>100g</span>
+                  <span><b>Sausages</b></span>
+                </div>
+            </div>
+
+            <div id="i-chicken" class="icono-ingrediente-card">
+              <div Class="icono-position-box">
+                <i class="fas fa-drumstick-bite"></i>
+              </div>
+              <div class="text-icono">
+                <span>20g</span>
+                <span><b>Chicken Fillet</b></span>     
+              </div>
+            </div>
+
+            <div id="i-pizza" class="icono-ingrediente-card">
+              <div Class="icono-position-box">
+                  <i class="fas fa-pizza-slice"></i>
+              </div>  
+              <div class="text-icono">
+                <span>50g</span>
+                <span><b>Pizza Base</b></span>
+              </div>
+            </div>
+      </div>
+      
+
+      
+      
+    </div>        
   
-  </section>
 
 
 
@@ -86,17 +169,48 @@
 
 
 
-
-
-
-
-
-
-
-
-
-</div>
-
+       <!-- parte de celeste 
+      <nav>
+        <ul> 
+        <li>Tastes good with</li>
+        <li>Feedbacks <span class="number10">(10)</span></li>
+        <li>Detailed info</li>
+        </ul>
+      </nav>
+        <div class="card-container">
+          <div class="card">
+            <img src="http://www.pngplay.com/wp-content/uploads/2/Top-View-Pizza-Transparent-Background.png" alt="img-pizza">
+            <p class="title-food">Hot Pepper Salad</p>
+            <p class="description-food">Cayen pepper, water mellon, mango...</p>
+            <div class="pricetag">$14</div>
+            <div class="addbutton">+</div>
+          </div>
+          <div class="card">
+            <img src="https://cdn.shopify.com/s/files/1/1698/9451/products/Moroccan_Chicken_Plate_1024x1024.png?v=1536624613" alt="img-curry">
+            <p class="title-food">Sallate Italliano</p>
+            <p class="description-food">Perreroni, chcilly, mozarella, tomato...</p>
+            <div class="pricetag">$28</div>
+            <div class="addbutton">+</div>
+          </div>
+          <div class="card">
+            <img src="https://images.ctfassets.net/4frik3v39clf/5CvdEQ4ilCa9iRkGROnOwW/dd516110e6d37e91a8e3439d05163207/Smothered_Pork_Chops_with_Home_Fries_and_Green_Beans_-_Week_33.png" alt="img-pork">
+            <p class="title-food">Miso Soupe</p>
+            <p class="description-food">Miso sauce, Mushrooms, todu</p>
+            <div class="pricetag">$4</div>
+            <div class="addbutton">+</div>
+          </div>
+          <div class="card">
+            <img src="https://cdn.shopify.com/s/files/1/1698/9451/products/Chicken_Marsala_Plate_1024x1024.png?v=1536623536" alt="img-chicken">
+            <p class="title-food">Pasta Grande</p>
+            <p class="description-food">Eggs, pasta, ham, red pepper</p>
+            <div class="pricetag">$12</div>
+            <div class="addbutton">+</div>
+          </div>
+        </div>
+      -->
   
+  </div>
+  
+
 </body>
 </html>
