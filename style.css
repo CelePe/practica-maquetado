@@ -595,6 +595,33 @@ body {
  
 }
 
+/*texto bajo la imagen principal*/
+
+.find-food-container{
+  padding: 10px;
+  position: absolute;
+  top: 500px;
+  right: 780px;
+}
+
+.find-food, .gray-text-list {
+  font-family: 'Proxima Nova';
+  font-weight: normal;
+  font-size: 12px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  }
+
+.find-food-list {
+  padding: 5px;
+}
+
+.gray-text-list {
+color: #c1c1ca;
+}
+
 
 
 
