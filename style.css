@@ -192,3 +192,485 @@ body {
   left: 0px;
   z-index: 0;
 }
+/* .body {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+}*/
+
+/*.main-card{
+  width: 80%;
+  background-color: white;
+  height: 1200px; /*aumento el height para dar más espacio a la card principal
+  border-radius: 35px;
+  overflow: hidden;
+  margin-top: 30px;
+} */
+
+.nav-box {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 0px;
+}
+
+.logo-food {
+  font-family: 'Proxima Nova';
+  font-weight: normal;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.food-letter {
+  font-size: 35px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.delivery-letter {
+  margin: 0px;
+  letter-spacing: 3px;
+}
+
+.cont-container-header {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+
+.container-input-lupa {
+  position: relative;
+  color: gray;
+  width: 40%;
+  margin-top: 20px;
+ 
+}
+
+.location-text { 
+  font-size: 12px;
+}
+
+#adreess {
+  font-weight: bold;
+  color: black;
+}
+
+.input-search {
+  border-radius: 15px;
+  border: 1px solid whitesmoke;
+  height: 30px; 
+  width: 95%;
+  position: relative;
+  padding: 5px ;
+  margin-top: 20px;
+}
+
+.fa-search {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.img-box-nav {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  width: 10%;  
+  position: relative;  
+}
+
+.img-small-nav {
+  position: absolute;
+  width: 50%;
+  box-shadow: 0px 0px 56px -26px rgba(0,0,0,0.75);
+  border-radius: 50%;
+  background-color: white;
+}
+
+#img-1 {
+  top: 20px;
+  z-index: 2;
+}
+
+#img-2 {
+ top: 0px;
+ z-index: 1;
+}
+
+#img-3 {
+  top: 35px;
+  z-index: 3;
+}
+
+.pedido-box-button {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  position: relative;
+  box-shadow: 0px 19px 88px -26px rgba(0,0,0,0.75);
+  border-bottom-left-radius: 20px; 
+  border-bottom-right-radius: 20px;
+}
+
+.pedido-box-detalles {
+  background-color: gray;
+  font-family:Arial, Helvetica, sans-serif;  
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  font-weight: 5px;
+  font-size: 15px;
+  height: 35px;
+  margin-top: 0px;
+}
+
+.box-pedido-dishes{
+  border-bottom: dashed 1px white;
+  padding: 2px;
+  margin: 0px 20px;
+  font-size: 10px;  
+  position: absolute;
+  left: 10px;
+}
+
+.box-pedido-price{
+  font-size: 20px;
+  padding: 10px;
+  position: absolute;
+  left: 120px;
+}
+
+.fa-shopping-cart {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 16px;
+  } 
+
+.order-button {
+  border-radius: 15px;
+  margin: 10px 0px;
+  width: 80%;
+  height: 30px;
+  background: linear-gradient(0.25turn, #e66465, #9198e5);
+  color: white;
+  border-style: none;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+}
+
+/* Final de header - descripción producto */
+
+.card-description-food {
+  height: 450px;  
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.cont-img-pizza-backtomenubtn {
+  width: 50%;
+  position: relative;
+}
+
+.back-to-menu-button {
+  font-family: Arial, Helvetica, sans-serif-;
+  font-size: 10px;
+  color: white;
+  padding: 15px 40px  15px 100px;
+  background-color: rgb(53, 42, 42);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius:10px ;
+  position: relative;
+  z-index: 1;
+  top: 50px;  
+}
+
+.img-pizza-pomodoro {
+  width: 70%;  
+  padding:50px;
+  box-shadow: 0px 0px 56px -26px rgba(0,0,0,0.75);
+  border-radius: 50%;
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
+
+
+/* Información de precio cantidad ingredientes */
+
+.cont-info-pizza {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.tomato-tittle { 
+  font-family: 'Proxima Nova';
+  font-size: 50px;  
+  margin: 40px 0px 0px;  
+}
+
+
+.info-ingredientes-pizza {
+  width: 60%;
+  position: absolute;
+  left: 10px;
+  top: 130px;  
+}
+
+.fa-pepper-hot {
+  font-size: 15px;
+  color: red;    
+  transform:rotate(-35deg);
+}
+
+#grey-pepper {
+  color: gray;  
+}
+
+#hotashell {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.description-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin-top: 10px;
+  width: 80%;
+
+}
+
+.buttons-order {
+  width: 100%;
+  position: relative;
+}
+
+.btn-agregarproducto {
+  position: absolute;
+  width: 45%;
+  top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px;
+  box-shadow: 0px 0px 25px -12px rgba(122,117,122,1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.btn-fake {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+#btn-1 {
+  border-left: solid 2px rgb(226, 224, 224);
+  border-right: solid 2px rgb(226, 224, 224);
+  padding:  10px 20px; 
+  font-weight: bold;
+}
+
+.btn-price {
+  font-size: 20px;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  padding: 10px 30px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 25px -12px rgba(122,117,122,1);
+}
+
+#btn-price-color {
+  color: rgb(214, 4, 151);
+}
+
+.btn-add-to-cart-big {
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  margin: 5px 0px;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(0.25turn, #e66465, #9198e5);
+  color: white;
+  border-style: none;
+  border-radius: 15px;  
+}
+
+
+/* caja flotante iconos */
+
+.container-cards-iconos-ingredientes {  
+  position: absolute;
+  top: 500px;
+  right: 250px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;  
+  height: 140px;
+  width: 30%;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 0px 19px 88px -26px rgba(0,0,0,0.75);
+}
+
+.iconos-cardx3 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+
+.icono-ingrediente-card {  
+  display: flex;
+  flex-direction: row;
+  width: 33%;
+}
+
+
+.text-icono {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  margin-top: 20px;
+  color: grey;
+  margin-left: 5px;
+}
+
+
+.fa-bacon{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+/*rotación de icono de bacon*/
+#i-bacon-1{
+  position: absolute;
+  z-index: 1;
+ 
+}
+
+#i-bacon-2{
+
+  transform: rotate(-65deg);
+}
+
+
+
+.icono-position-box {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 25px;
+  color: rgb(93, 116, 165);
+  
+ 
+}
+
+
+
+
+
+/*Hasta acá hice hoy*/
+
+/*pongo en comentario la parte de Celeste porque me está pisando mi codigo y no se como arreglarlo :)
+
+ 
+
+ul{
+  list-style: none;
+  font-family: 'Proxima Nova';
+  font-weight: lighter;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  
+}
+
+li{
+  padding: 20px;
+}
+
+.card-container{
+  width: 500px;
+  length: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+
+}
+
+.card {
+width: 25%;
+border-radius: 10px;
+background-color: whitesmoke;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.title-food{
+  font-family: 'Proxima Nova';
+  font-weight: bold;
+color: black;
+
+}
+
+.description-food{
+  font-family: 'Proxima Nova';
+  font-weight: lighter;
+  backgound-color: #ffffff;
+
+}
+
+.pricetag{
+  height: 20px;
+  width: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 8000px;
+  border-bottom-right-radius: 8000px;
+  background-color: #fefefe;
+  font-family: 'Proxima Nova';
+  font-weight: lighter;
+  text-align: center;
+}
+
+.addbutton{
+
+}
+
+img{
+  width: 100px;
+}
+
+*/
